@@ -1016,7 +1016,7 @@ extension ThreadConfined where Self: ObjectBase {
 }
 
 private struct RealmEnvironmentKey: EnvironmentKey {
-    static let defaultValue = Realm.Configuration.defaultConfiguration
+    static let defaultValue = Realm.Configuration()
 }
 
 private struct PartitionValueEnvironmentKey: EnvironmentKey {
